@@ -52,8 +52,8 @@ mascaraRange.onchange = (e) => {
 export function initThreejs(fovy, video, videoCanvas) {
 
     // Setup renderer
-    const defaultWidth = 640;
-    const defaultHeight = 480;
+    const defaultWidth = "100%";
+    const defaultHeight = "100%";
     renderer = new THREE.WebGLRenderer({
         canvas: document.getElementById('xzimg-sdk-canvas'),
         alpha: true,
