@@ -68,7 +68,6 @@ function processFrame() {
 
     renderScene();
     requestAnimationFrame(processFrame);
-    console.error('sdfdsf');
 }
 
 
